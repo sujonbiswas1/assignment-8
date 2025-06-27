@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+
+#item-content{
+     padding-bottom: 20px;
+}
+#item-content li{
+     width: 100%;
+     font-size: 20px;
+     font-weight: bold;
+     padding: 20px 10px;
+     display: flex;
+     justify-content: space-between;
+     position: relative;
+     margin-top: 5px;
+     border-radius: 10px;
+     background-color: aliceblue;
+     padding: 3px 15px;
+    
+
+}
+.inputStyle{
+     outline: none;
+     border: none;
+     width: 70%;
+     border-bottom: 2px solid red;
+}
+.editStyle{
+     position: absolute;
+     right:55px;
+     top: 2px;
+     background-color: rgb(214, 214, 0);
+     padding: 1px 7px;
+     border-radius: 7px;
+}
+
+.markStyle{
+     position: absolute;
+     right:100px;
+     top: 2px;
+     background-color: rgb(28, 167, 0);
+     padding: 1px 7px;
+     border-radius: 7px;
+
+}
+.deleteStyle{
+     background-color: rgb(204, 0, 0);
+     padding: 1px 5px;
+     border-radius: 7px;
+
+}
+
